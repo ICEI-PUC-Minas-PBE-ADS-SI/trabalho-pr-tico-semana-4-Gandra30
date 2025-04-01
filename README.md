@@ -1,22 +1,25 @@
-# Trabalho Prático - Semana 04 e 05
+# Trabalho Prático - Semana 03
 
-Dessa vez, vamos dar sequência ao projeto iniciado na semana passada. Se você ainda não fez o projeto da semana anterior, fique atento, se programe e procure colocar as atividades em dia. Volte lá, leia tudo e faça sua parte pois essa atividade depende da atividade anterior..
+Dessa vez, vamos escolher uma proposta de projeto para trabalhar. Na [lista de propostas de projetos](propostas-projetos.md), escolha um dentre as alternativas.
 
-Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto no celular quanto no desktop, entendendo também como é o processo gradativo e colaborativo de desenvolvimento de um software, registrando cada etapa no histórico de commits do repositório do git/GitHub..
+Nessa atividade, você deverá montar a página inicial do projeto escolhido, a organização do HTML aplicando semântica correta e uso aprimorado do CSS. Leia o enunciado completo no Canvas para mais detalhes.
 
 **IMPORTANTE:** Você deve trabalhar e alterar apenas arquivos dentro da pasta **`public`**. Deixe todos os demais arquivos e pastas desse repositório inalterados. **PRESTE MUITA ATENÇÃO NISSO.**
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome:arthur soares gandra
+- Matricula:1594743
+- Proposta de projeto escolhida:site de receitas
+- Breve descrição sobre seu projeto:um site simples de receitas, pretendo fazer alterações no futuro.
 
-## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+## Print do esboço criada
 
-## Print da versão responsiva com Bootstrap
+<img src="foto1.jpg" alt="esboço">
 
-<<  COLOQUE A IMAGEM AQUI >>
+
+
+## Print da home-page criada
+
+<img src="foto2.png" alt="site">
