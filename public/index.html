@@ -1,12 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Receitas Online</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Receitas Online</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Em Alta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Doces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Salgados</a>
+                    </li>
+                </ul>
+                <form class="d-flex me-2">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar receitas...">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <div class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Usuário">
+                    <input class="form-control me-2" type="password" placeholder="Senha">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#recipeCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="bolo.webp" class="d-block w-100" alt="Bolo de Cenoura" loading="lazy">
+            </div>
+            <div class="carousel-item">
+                <img src="bolo.jpg" class="d-block w-100" alt="Bolo Gelado" loading="lazy">
+            </div>
+            <div class="carousel-item">
+                <img src="torta.webp" class="d-block w-100" alt="Torta de Frango" loading="lazy">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-lg-8">
+                <div class="row">
+                    <!-- Recipe Cards -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="bolo.webp" class="card-img-top" alt="Bolo de Cenoura">
+                            <div class="card-body">
+                                <h5 class="card-title">Bolo de Cenoura</h5>
+                                <p class="card-text"><strong>Ingredientes:</strong></p>
+                                <h6>Massa</h6>
+                                <ul class="list-unstyled">
+                                    <li>1/2 xícara (chá) de óleo</li>
+                                    <li>3 cenouras médias raladas</li>
+                                    <li>4 ovos</li>
+                                    <li>2 xícaras (chá) de açúcar</li>
+                                    <li>2 e 1/2 xícaras (chá) de farinha de trigo</li>
+                                    <li>1 colher (sopa) de fermento em pó</li>
+                                </ul>
+                                <h6>Cobertura</h6>
+                                <ul class="list-unstyled">
+                                    <li>1 colher (sopa) de manteiga</li>
+                                    <li>1 xícara (chá) de açúcar</li>
+                                    <li>3 colheres (sopa) de chocolate em pó</li>
+                                    <li>1 xícara (chá) de leite</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="bolo.jpg" class="card-img-top" alt="Bolo Gelado">
+                            <div class="card-body">
+                                <h5 class="card-title">Bolo Gelado</h5>
+                                <p class="card-text"><strong>Ingredientes:</strong></p>
+                                <h6>Massa</h6>
+                                <ul class="list-unstyled">
+                                    <li>2 xícaras (chá) de açúcar</li>
+                                    <li>1 copo de suco de laranja</li>
+                                    <li>3 xícaras (chá) de farinha de trigo</li>
+                                    <li>1 colher (sopa) de fermento em pó</li>
+                                    <li>4 ovos</li>
+                                </ul>
+                                <h6>Cobertura</h6>
+                                <ul class="list-unstyled">
+                                    <li>1 garrafa pequena de leite de coco</li>
+                                    <li>1 lata de leite condensado</li>
+                                    <li>1 garrafa de leite</li>
+                                    <li>1 pacote de coco ralado sem açúcar</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="torta.webp" class="card-img-top" alt="Torta de Frango">
+                            <div class="card-body">
+                                <h5 class="card-title">Torta de Frango</h5>
+                                <p class="card-text"><strong>Ingredientes:</strong></p>
+                                <h6>Recheio</h6>
+                                <ul class="list-unstyled">
+                                    <li>500 g de peito de frango</li>
+                                    <li>4 colheres (sopa) de óleo</li>
+                                    <li>1 cebola picada</li>
+                                    <li>1 xícara (chá) de ervilhas</li>
+                                    <li>3 tomates sem pele</li>
+                                    <li>1 dente de alho</li>
+                                </ul>
+                                <h6>Massa</h6>
+                                <ul class="list-unstyled">
+                                    <li>250 ml de leite</li>
+                                    <li>2 ovos</li>
+                                    <li>3/4 de xícara (chá) de óleo</li>
+                                    <li>1 e 1/2 xícara (chá) de farinha de trigo</li>
+                                    <li>1 colher (sopa) de fermento em pó</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Categorias</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Home</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Bebidas</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Em Alta</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Doces</a></li>
+                            <li class="list-group-item"><a href="#" class="text-decoration-none">Salgados</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light mt-5 py-3">
+        <div class="container text-center">
+            <p class="mb-1">© 2024 Arthur Soares Gandra | <strong>Site de Receitas</strong></p>
+            <p class="mb-0">Contato: <a href="tel:+5531988046605" class="text-decoration-none">(31) 98804-6605</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
